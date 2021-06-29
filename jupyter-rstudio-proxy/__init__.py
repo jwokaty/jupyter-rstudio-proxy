@@ -2,7 +2,7 @@ import os
 
 def setup_rstudio():
     return {
-        "command": ["rstudio-server", "start", "8787"],
+        "command": ["/usr/lib/rstudio-server/bin/rstudio-server", "start"],
         "launcher_entry": {
             "title": "RStudio"
         },
