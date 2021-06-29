@@ -6,5 +6,7 @@ def setup_rstudio():
         "launcher_entry": {
             "title": "RStudio"
         },
-        "absolute_url": False
+        "absolute_url": False,
+        "port": "8787"
+
     }
