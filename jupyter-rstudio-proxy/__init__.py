@@ -3,7 +3,10 @@
 def setup_rstudio():
     return {
         "command": [
-            "rstudio-server", "start", "---www-port=", "{port}"
+            "/usr/lib/rstudio-server/bin/rsession", 
+            "-u", "waldronlab",
+            "--session-root-path", "/home/waldronlab",
+            "---www-port=", "{port}"
         ],
         "launcher_entry": {
             "title": "RStudio"
