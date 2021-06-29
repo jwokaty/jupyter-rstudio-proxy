@@ -9,7 +9,7 @@ setuptools.setup(
     author="J Wokaty",
     description="Jupyter extension to proxy Rstudio",
     packages=[
-        "jupyter-rstudio-proxy"
+        "jupyter_rstudio_proxy"
     ],
     install_requires=[
         "jupyter-server-proxy"

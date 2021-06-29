@@ -12,5 +12,5 @@ def setup_rstudio():
             "title": "RStudio"
         },
         "absolute_url": False,
-        "port": "8787"
+        "port": 8787
     }
