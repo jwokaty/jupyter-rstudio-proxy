@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import setuptools
 
 setuptools.setup(
@@ -6,9 +8,9 @@ setuptools.setup(
     url="https://github.com/jwokaty/jupyter-rstudio-proxy",
     author="J Wokaty",
     description="Jupyter extension to proxy Rstudio",
-    packages=setuptools.find_packages(),
-        keywords=["Jupyter"],
-        classifiers=["Framework :: Jupyter"],
+    packages=[
+        "jupyter-rstudio-proxy"
+    ],
     install_requires=[
         "jupyter-server-proxy"
     ],
